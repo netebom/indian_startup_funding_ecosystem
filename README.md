@@ -1,45 +1,77 @@
-# Indian Startup Ecosystem: "Insights for Prospective Investors"
+# 📊 Indian Startup Ecosystem Analysis (2018–2021)
 
-This data analysis task aims to offer a comprehensive overview of the Indian startup ecosystem, focusing on the period from 2018 to 2021. By analyzing a rich dataset spanning this timeframe, the goal is to uncover key trends, patterns, and insights that illuminate the dynamic nature of India's startup landscape.
+## 📌 Project Overview
+This project explores the Indian startup funding ecosystem to uncover insights that guide investment decisions. Using data from 2018 to 2021, it identifies high-growth sectors, leading investors, and startup hubs. The goal is to support venture capital firms and prospective investors in making data-informed decisions.
 
-## Project Description
-In recent years, India has experienced a remarkable surge in entrepreneurial activities, driving the growth of its startup ecosystem. With a burgeoning population, a thriving digital landscape, and a supportive environment for innovation and entrepreneurship, India has emerged as a hotspot for startups across diverse industries.
+---
 
-The objective of this project is to explore the Indian startup ecosystem by analyzing the funding received by startups from 2018 to 2021 and propose the best course of action. The insights gained will be valuable to prospective investors, entrepreneurs, and other stakeholders interested in entering the Indian startup space.
+## 🎯 Business Objectives
+- Understand the Indian startup ecosystem
+- Identify top-performing sectors and investment opportunities
+- Recommend high-potential cities and companies for venture entry
+- Analyze funding stages and investor trends
+- Test if tech startups receive significantly higher funding
 
+---
 
-## Data Dictionary
+## 📊 Dataset Summary
+Combined datasets (CSV and SQL) containing:
+- Company Name, Sector, Investor Info
+- Amount Raised, Funding Stage, Headquarters
+- Year of Funding (2018–2021)
 
-Data Source: The datasets consists of separate CSV files for each year (2018-2021) detailing startup funding in India. 
+**Data Sources**:
+- GitHub (public CSV)
+- OneDrive (manual download)
+- SQL Server (queried with ODBC)
 
-The columns include:
+---
 
-1. Company/Brand: Name of the company/start-up
-2. Founded: Year start-up was founded
-3. Sector: Sector of service
-4. What it does: Description of the company
-5. Founders: Founders of the company
-6. Investor: Investors
-7. Amount($): Raised fund
-8. Stage: Round of funding reached
+## 🧰 Tools & Libraries
+- **Python**: Pandas, NumPy, Matplotlib, Seaborn
+- **SQL**: pyodbc for database extraction
+- **Power BI**: Interactive dashboard (optional)
+- **Jupyter Notebook**: Analysis environment
 
+---
 
-## Setup
-1. Install all the necessary libraries like pandas, numpy, matplotlib, seasborn.
+## 🔍 Key Analyses
+- Top 5 sectors with highest funding
+- Year-wise trends in investment activity
+- Cities attracting the most startup capital
+- Top 3 investors by frequency
+- Hypothesis test on funding patterns in tech vs. other sectors
 
-2.Install pyodbc - a package for creating connection strings to your remote database
+---
 
-3.Install python-dotenv - a package for creating environment variables that will help you hide sensitve configuration informantion such as database credentials and API keys
+## 📈 Key Insights
+- **Technology and FinTech** consistently led in funding
+- **Bangalore, Mumbai, and Delhi** were dominant startup hubs
+- Angel and seed-stage funding was most common
+- Evidence supports higher funding concentration in tech sectors
 
-4.Import all the necessary libraies
+---
 
-a.pyodbc (for creating a connection)
+## 💼 Business Impact
+The findings assist investors in:
+- Pinpointing sectors with high ROI potential
+- Targeting cities with dense innovation ecosystems
+- Understanding market maturity and funding preferences
 
-b.python-dotenv (loading environment variables)
+---
 
-5.Now create a file called .env in the root of your project folder (Note, the file name begins with a dot)
+## 📁 Repository Structure
+- `indian_startup_funding_ecosystem.ipynb` – Main notebook
+- `datasets/` – Raw and processed datasets
+- `screenshots/` – Power BI visuals (optional)
+- `dashboard.pbix` – Power BI file (optional)
 
-6.In the .env file, put all your sensitive information like server name, database name, username, and password
+---
+
+## ▶️ Dashboard
+*Include Power BI dashboard link or screenshots here.*
+
+---
 
 ## Deployment 
 The project is available in two formats: a published report and a deployed Power BI Dashboard.
@@ -49,4 +81,12 @@ To access the Report, use the following link: [Article Link](https://medium.com/
 For the Deployed Dashboard, use the following link: [Power Bi Link](https://app.powerbi.com/view?r=eyJrIjoiMGE2NzNiMDAtMDFlZi00MDRjLTk1YTgtOTZiODRlMzA5YjcwIiwidCI6IjQ0ODdiNTJmLWYxMTgtNDgzMC1iNDlkLTNjMjk4Y2I3MTA3NSJ9)
 
  ![PowerBi Dashboard](image.png)
+
+---
+
+## 📄 Author
+**Etebom Ntuk**  
+Data Analyst | [GitHub](https://github.com/netebom) | 📧 ntuketebom@gmail.com
+
+
 
